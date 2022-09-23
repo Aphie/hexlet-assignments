@@ -43,6 +43,7 @@ public class App {
         storage1.get("value", "default"); // "key"
 
         System.out.println(storage1.toMap()); // => {value=key, value2=key2}
+
     }
 }
 // END
