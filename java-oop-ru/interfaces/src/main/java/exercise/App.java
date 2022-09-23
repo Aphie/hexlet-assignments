@@ -7,10 +7,14 @@ import java.util.List;
 // BEGIN
 public class App {
     public static List<String> buildAppartmentsList(List<Home> appartments, int elements) {
-        Collections.sort(appartments, (o1,o2) -> (int) (o1.getArea() - o2.getArea()));
         List<String> result = new ArrayList<>();
-        for (int i = 0; i < elements; i++) {
-            result.add(appartments.get(i).toString());
+
+        if (appartments.size() > elements) {
+            Collections.sort(appartments, (o1, o2) -> (int) (o1.getArea() - o2.getArea()));
+
+            for (int i = 0; i < elements; i++) {
+                result.add(appartments.get(i).toString());
+            }
         }
         return result;
     }
