@@ -17,7 +17,6 @@ class AppTest {
         assertThat(storage.get("value2", "")).isEqualTo("key2");
     }
 
-
     @Test
     void testSwapKV2() {
         KeyValueStorage storage = new InMemoryKV(Map.of("foo", "bar", "bar", "zoo"));
