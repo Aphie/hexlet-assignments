@@ -8,6 +8,7 @@ import java.util.List;
 public class Validator {
     public static List<String> validate(Address address) {
         List<String> nullFields = new ArrayList<>();
+
         for (Field field: address.getClass().getDeclaredFields()) {
             NotNull notNullField = field.getAnnotation(NotNull.class);
             if (notNullField != null) {
