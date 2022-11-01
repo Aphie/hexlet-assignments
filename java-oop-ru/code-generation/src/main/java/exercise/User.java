@@ -1,3 +1,4 @@
+package exercise;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
