@@ -1,0 +1,16 @@
+џэт. 12, 2023 3:41:40 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-1"]
+џэт. 12, 2023 3:41:40 PM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+џэт. 12, 2023 3:41:40 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+џэт. 12, 2023 3:41:40 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/8.5.69]
+џэт. 12, 2023 3:41:40 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-1-56433"]
+џэт. 12, 2023 3:41:41 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-1-56433"]
+џэт. 12, 2023 3:41:41 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+џэт. 12, 2023 3:41:41 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-1-56433"]
